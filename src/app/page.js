@@ -2,6 +2,7 @@
 
 import Counter from "./counter";
 
+// Main page
 
 export default function Home() {
   return (
