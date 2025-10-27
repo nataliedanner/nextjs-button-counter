@@ -12,7 +12,7 @@ export default function CustomCounter({ initialCount = 4, initialStep = 3}) {
             <button onClick={() => setCount(count + step)}> 
                 <input id="input" type="number" step={initialStep} ></input>
                 Increment </button>
-            <button onClick={() => setCount(count - step)} disabled={count===0}>
+            <button onClick={() => setCount(count - step)} disabled={count===1}>
                 <input id="input" type="number" step={initialStep} ></input> 
                 Decrement</button>
             <button onClick={() => setCount(initialCount)}> Reset</button>
