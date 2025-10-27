@@ -1,9 +1,9 @@
-// Counter
+// Custom Counter
 
 "use client";
 import { useState } from 'react';
 
-export default function Counter({ initialCount = 0, initialStep = 1}) {
+export default function CustomCounter({ initialCount = 4, initialStep = 3}) {
     const [count, setCount] = useState(initialCount)
     const [step] = useState(initialStep)
     return (
